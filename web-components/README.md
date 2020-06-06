@@ -8,7 +8,8 @@ Web component can be used to isolate each layouts into separate logical entity.
 To create any custom tag, we perform following steps:
 We create the tag name of our choice in which new words are separated with hypens.
 
- ``` <user-card name="John Doe">
+ ``` 
+ <user-card name="John Doe">
      </user-card> 
   ```
   
@@ -63,7 +64,8 @@ template.innerHTML = `
  Slots can be single slot or multi-slot.
  For multi-slot, we define **slot** attirbute with a value.
 ### The HTML
- ``` <user-card name="Akkkiii">
+ ``` 
+ <user-card name="Akkkiii">
       <div slot="email">akki@gmail.com</div>
       <div slot="phone">999-999-4454</div>
   </user-card> 
@@ -87,9 +89,7 @@ template.innerHTML = `
   </user-card>
 ```
 ### The JS
-
 ```
-
 const template =document.createElement('template');
 template.innerHTML = `
 <style>
